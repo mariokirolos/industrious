@@ -5,8 +5,6 @@ version: 1.0
 core: 8.x
 libraries:
   - industrious/base
-  - industrious/messages
-  - industrious/normalize
 
 regions:
   branding: 'Branding'
