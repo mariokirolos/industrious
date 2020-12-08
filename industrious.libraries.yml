@@ -1,0 +1,14 @@
+base:
+  version: VERSION
+  css:
+    component:
+      assets/css/font-awesome.min.css: { weight: -10 }
+      'https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600': { type: external }
+      assets/css/main.css: { weight: -5 }
+      assets/css/drupal8.css: { weight: -10 }
+  js:
+    assets/js/jquery.min.js: {}
+    assets/js/browser.min.js: {}
+    assets/js/breakpoints.min.js: {}
+    assets/js/util.js: {}
+    assets/js/main.js: {}

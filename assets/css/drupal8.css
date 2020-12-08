@@ -1,0 +1,34 @@
+/* Site Header Styling */
+#header .logo a{
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    height: inherit;
+    line-height: inherit;
+    text-decoration: none;
+}
+
+/* Tabs Menu Styling */
+ul.tabs.primary li{
+    display: inline;
+    border: 1px solid #999;
+    border-radius: 5px 5px 0px 0px;
+    border-bottom: 0;
+    padding: 5px 10px;
+}
+ul.tabs.primary li.is-active{
+    background:#eee;
+}
+
+ul.tabs.primary li a{
+    text-decoration: none;
+}
+
+
+
+/* contextual-links */
+.contextual-region .contextual .contextual-links a {
+    color: #333 !important;
+    font-size: small !important;
+    font-weight: inherit !important;
+}

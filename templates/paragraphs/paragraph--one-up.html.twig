@@ -1,0 +1,6 @@
+<section class="wrapper" id="cta" {% if content.field_background_image %}style="background-image:url({{ file_url(content.field_background_image['#items'].entity.uri.value) }});"{% endif %}>
+    <div class="inner">
+        {% if content.field_title %}<h2>{{ content.field_title }}</h2>{% endif %}
+        {% if content.field_content %}{{ content.field_content }}{% endif %}
+    </div>
+</section>

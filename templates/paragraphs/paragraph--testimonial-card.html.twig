@@ -1,0 +1,15 @@
+<section>
+    <div class="content">
+        {% if content.field_testimonial_description %}
+        <blockquote>
+            {{ content.field_testimonial_description }}
+        </blockquote>
+        {% endif %}
+        <div class="author">
+            <div class="image">
+                {{ content.field_person_image.0  }}
+            </div>
+            <p class="credit">{% if content.field_person_name %}- <strong>{{ content.field_person_name.0 }}</strong>{% endif %} {% if content.field_person_title or content.field_company_name  %}<span>{% if content.field_person_title %}{{ content.field_person_title.0 }} {% endif %}{% if content.field_company_name %}- {{ content.field_company_name.0 }}{% endif %}</span></p>{% endif %}
+        </div>
+    </div>
+</section>

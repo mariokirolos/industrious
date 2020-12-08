@@ -1,0 +1,22 @@
+name: Industrious
+type: theme
+description: 'This is a converted Drupal 8 theme that is originally from free html template can be found on <a href="https://templated.co/industrious">https://templated.co/industrious</a>'
+version: 1.0
+core: 8.x
+libraries:
+  - industrious/base
+  - industrious/messages
+  - industrious/normalize
+
+regions:
+  branding: 'Branding'
+  primary: 'Primary Menu'
+  pagetitle: 'Page Title'
+  content: 'Content'
+  footer1: 'Footer 1'
+  footer2: 'Footer 2'
+  footer3: 'Footer 3'
+  copyrights: 'Copy Rights'
+
+dependencies: 
+  - drupal:paragraphs

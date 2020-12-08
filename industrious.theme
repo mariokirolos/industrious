@@ -1,0 +1,8 @@
+<?php 
+
+// function industrious_theme_suggestions_paragraph_alter(array &$suggestions, array $variables){
+//     $paragraph = $variables['elements']['#paragraph'];
+//     $parent_field_name = $paragraph->parent_field_name->value;
+//     $suggestions[] = 'paragraph__' . $paragraph->bundle() . '__' . $view_mode . '__' . $parent_field_name;
+//     $suggestions[] = 'paragraph__' . $paragraph->bundle() . '__' . $parent_field_name;
+// }

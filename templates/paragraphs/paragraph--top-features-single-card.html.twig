@@ -1,0 +1,9 @@
+<section>
+    <div class="content">
+        <header>
+            {% if content.field_icon %}<a href="{% if content.field_link %}{{ content.field_link[0]['#url'] }}{% else %}#{% endif %}" class="icon {{ paragraph.field_icon.0.value }}"><span class="label">{{ content.field_icon }}</span></a>{% endif %}
+            {% if content.field_icon %}<h3>{{ content.field_title }}</h3>{% endif %}
+        </header>
+        {% if content.field_content %}<p>{{ content.field_content }}</p>{% endif %}
+    </div>
+</section>
